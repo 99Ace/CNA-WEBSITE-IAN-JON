@@ -1,0 +1,59 @@
+nav {
+    display :flex;
+}
+/* BRAND-LOGO */
+.red {
+    flex : 4;
+    text-align: center;
+}
+.brand-logo {
+    height: 100px;
+}
+/* UL LI A  */
+.yellow {
+    /* background-color: yellow; */
+    flex: 10;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+nav>div>ul {
+}
+
+nav>div>ul>li {
+    display: inline-block;
+    width: 150px;
+}
+nav>div>ul>li>a {
+    text-decoration: none;
+    color: grey;
+    font-family:'Times New Roman', Times, serif
+}
+.width-150 {
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.width-150>a {
+    text-decoration: none;
+    color: grey;
+    font-family:'Times New Roman', Times, serif
+}
+
+
+
+
+
+.nav-link {
+    width: 200px;
+    background-color: pink;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+/*      
+        <div><a href="">Sign In</a></div>
+        <div><a href="">Search</a></div> */
