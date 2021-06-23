@@ -1,0 +1,48 @@
+.parent {
+    border: 1px solid black;
+    height: 400px;
+    width: 400px;
+
+    display: flex;  
+    /* justify-content: ; */
+    /* align-items: ; */
+    /* flex-direction: ; */
+    /* flex-wrap: wrap;
+    align-content:center; */
+
+}
+.box {
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+}
+.red    {
+    background-color: red;
+}
+.blue    {
+    background-color: blue;
+    /* order: -1; apply to child only */
+    /* align-self:center; apply to child only */
+}
+.green    {
+    background-color: green;
+}
+
+section {
+    height: 800px;
+    background-color: wheat;
+    display: flex;
+}
+
+.red2    {
+    background-color: red;
+    flex: 3;
+}
+.blue2    {
+    background-color: blue;
+    flex: 5;
+}
+.green2    {
+    background-color: green;
+    flex: 2;
+}
