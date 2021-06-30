@@ -1,0 +1,76 @@
+body {
+    /* background-color: antiquewhite; */
+}
+.card {
+    height: 400px;
+    width: 700px;
+    border: 1px solid black;
+
+    display: flex;
+    flex-direction: column;
+}
+/* PARENT OF .LOGO AND .COMPANY */
+.upper {
+    /* background-color: aquamarine; */
+    flex: 1; /* apply to .upper as a child to .card*/
+
+    display: flex;
+    justify-content: space-around;
+}
+.logo {
+    /* background-color: coral; */
+    padding-top: 20px;
+}
+.logo img {
+    height: 80px;
+}
+.company {
+    /* background-color: darkgrey; */
+}
+
+
+.lower {
+    /* background-color: burlywood; */
+    flex: 2;
+
+    display: flex;
+    
+}
+.picture {
+    /* background-color: pink; */
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+}
+.picture img {
+    height: 120px;
+    position: relative;
+    right: 30%;
+}
+.frame {
+    height: 120px;
+    width: 120px;
+    border: black solid 1px;
+    background-image: url('parrot.jpeg');
+    background-size: cover;
+    background-position: 70% 50%;
+    border-radius: 50%;
+    /* overflow: hidden; */
+}
+.info {
+    /* background-color: turquoise; */
+    flex: 1;
+    padding-top: 70px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+}
+.contact {
+    /* background-color: floralwhite; */
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,22 @@
+/* external CSS */
+
+.box {
+    height: 200px;
+    width:200px;
+    border: solid black 1px;
+}
+
+div#orange {
+    background-color: blue;
+}
+#orange {
+    background-color: orange;
+}
+
+.yellow {
+    background-color: yellow;
+}
+.red {
+    background-color: red;
+}
+
