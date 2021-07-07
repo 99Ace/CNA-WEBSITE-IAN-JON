@@ -1,0 +1,29 @@
+/* Mobile first */
+body {
+    background-color: blue;
+}
+h1 {
+    color : white;
+}
+
+/* Ipad width : 768px  - color yellow */
+@media screen and (min-width: 768px) {
+    body {
+        background-color: green;
+    }
+}
+
+/* Ipad Pro 1080px color - black */
+@media screen and (min-width: 1080px) {
+    body {
+        background-color: pink;
+    }
+}
+
+/* Laptop  / Macbook - > 1200px  color - white */
+@media screen and (min-width: 1200px) {
+    body {
+        background-color: firebrick;
+    }
+}
+

@@ -1,0 +1,24 @@
+/* Laptop size */
+body { 
+    background-color: blue;
+}
+
+/* Size 1200px and below Ipad pro*/
+@media screen and (max-width:1200px) {
+    body {
+        background-color: green;
+    }
+    
+}
+@media screen and (max-width:1020px) {
+    body {
+        background-color: pink;
+    }
+    
+}
+@media screen and (max-width:768px) {
+    body {
+        background-color: red;
+    }
+    
+}
